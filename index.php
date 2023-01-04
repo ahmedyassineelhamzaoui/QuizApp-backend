@@ -1,3 +1,10 @@
+<?php
+
+require_once('app/view/autoload.php');
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +22,7 @@
 <body>
     <div class="body-content">
         <div class="top-content">
-        <audio id="audio-Source" src="./public/images/audio.mp3"></audio>
+        <audio id="audio-Source" src="./public/images/audio.mp3" ></audio>
         <div class="audio-content">
             <i class="fa-solid fa-music text-xl" id="play-audio"></i>
             <i id="pause-audio" class="fa-solid fa-volume-xmark text-xl"></i>
